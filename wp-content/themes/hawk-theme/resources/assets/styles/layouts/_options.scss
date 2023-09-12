@@ -1,0 +1,36 @@
+&__options {
+    background-color: #fff;
+    color: #000;
+
+    &__content {
+        &__box {
+            border: 1px solid #dfdfdf;
+            &__icon {
+                padding: 45px 0;
+                img {
+                    border: 1px solid #dfdfdf;
+                    border-left: none;
+                    padding: 10px;
+                    width: 55px;
+                    height: 55px;
+                    margin-right: 30px;
+                }
+            }
+
+            &__text {
+                padding: 45px 0;
+                
+                h5 {
+                    font-weight: bold;
+                    font-size: 2em;
+                    text-transform: uppercase;
+                }
+                
+                p {
+                    width: 70%;
+                    font-size: 1.4em;
+                }
+            }
+        }
+    }
+}

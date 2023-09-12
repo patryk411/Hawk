@@ -1,0 +1,87 @@
+.banner-top {
+    z-index: 22;
+    
+    &__box {
+        background-color: #111111;
+        padding: 5px 0;
+
+        &__text {
+            display: flex;
+            padding: 5px 20px 0 20px;
+            color: #707070;
+            font-size: 1.3em;
+            font-weight: bold;
+
+            .box-brand-text {
+                color: #254993;
+                margin: 0 5px;
+            }
+
+                .fa-bullhorn {
+                    color: #fff;
+                    width: 25px;
+                    height: 25px;
+                    background-color: #254993;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 0.8em;
+                }
+
+                .edit {
+                    margin: 0 20px;
+                }
+            
+            .footer-brand-text {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.1em;
+                margin: 0 20px;
+                color: #254993;
+
+                .fa-circle-right {
+                    margin-left: 5px;
+                }
+            }
+        }
+    
+        &__icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            a {
+                width: 25px;
+                height: 25px;
+                background-color: rgba(255,255,255,.1);
+                text-decoration: none;
+                color: #a9a9a9;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 5px;
+                transition: color .5s;
+                i,svg {
+                    font-size: 1.2em;
+                }
+            }
+    
+            a:hover {
+                background-color: #254993;
+                color: #fff;
+    
+                svg {
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+}

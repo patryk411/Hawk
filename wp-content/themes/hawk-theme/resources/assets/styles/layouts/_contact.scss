@@ -1,0 +1,172 @@
+&__contact {
+    background-color: #111111;
+    color: #fff;
+
+    &__content {
+        margin: 50px 0;
+
+        &__box {
+            .brand-contact {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin-bottom: 20px;
+                
+                i {
+                    font-size: 3em;
+                    color: #254993;
+                }
+
+                .icon-brand {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    color: #fff;
+                    text-decoration: none;
+                    margin-left: 5px;
+
+                    .brand {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #254993;
+                        padding: 2px 0;
+                        font-size: 1em;
+                    }
+                }
+            }
+
+            &--text {
+                color: #c5c5c5;
+                font-size: 1.2em;
+            }
+
+            &--link {
+                color: #254993;
+                font-size: 1.4em;
+                font-weight: bold;
+                transition: color .5s;
+            }
+            
+            &--link:hover {
+                color: #fff;
+            }
+
+            &--heading {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 1.8em;
+            }
+            
+            .div-separator {
+                .line {
+                    margin-bottom: 25px;
+                    background-color: #a0a0a0;
+                }
+            }
+
+            &--text-link {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin-bottom: 10px;
+                color: #c5c5c5;
+                font-size: 1.2em;
+                cursor: pointer;
+                transition: color .5s;
+
+                i {
+                    margin-right: 10px;
+                    color: #254993;
+                }
+          }
+
+          &--text-link:hover {
+            text-decoration: none;
+            color: #fff;
+          }
+
+          &__news {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            margin: 5px 0;
+
+            img {
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+
+            &__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &--head {
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    width: 70%;
+                    margin-bottom: 0;
+                }
+                
+                &--date {
+                    font-size: 1.2em;
+                    color: #254993;
+                }
+            }
+          }
+          
+          .label-mail {
+              margin-bottom: 10px;
+              input {
+                  padding: 20px 15px;
+                  background: transparent;
+                  font-size: 1.4em;
+                  border: 1px solid #383838;
+                  outline: none;
+                  color: #fff;
+                  
+                }
+                
+                input::placeholder {
+                    color: #383838;
+                }
+                
+                
+                a {
+                border-radius: 0px;
+                background-color: #254993;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    font-size: 1.2em;
+                }
+            }
+          }
+
+          &__newslatter {
+            margin-top: 10px;
+
+            i {
+                font-size: 1.4em;
+                margin-right: 10px;
+                margin-top: 5px;
+                color: #254993;
+            }
+
+            &--text {
+                margin-bottom: 0;
+                color: #cecece;
+                font-size: 1.3em;
+            }
+          }
+        }
+    }
+}

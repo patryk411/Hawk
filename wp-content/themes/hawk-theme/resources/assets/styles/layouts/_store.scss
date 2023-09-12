@@ -1,0 +1,118 @@
+&__store {
+    &__text {
+        margin-bottom: 50px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &--text {
+            color: #717171;
+        }
+    }
+
+    &__content {
+        &__box {
+            border: 1px solid #dfdfdf;
+            background-color: #f8f8f8;
+            margin: 0 20px;
+
+            &__img {
+                
+                
+                &--img {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10px;
+                    
+                    img {
+                        width: 50%;
+                        height: 50%;
+                        margin-bottom: 50px;
+
+                    }
+
+                }
+
+                &__rate {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: end;
+                    justify-content: end;
+                    padding: 20px 10px;
+                    
+                    i {
+                        color: #254993;
+                    }
+
+                    .empty-stars {
+                        color: #e1e1e1;
+                    }
+                }
+            }
+
+            &__text {
+                background-color: #fff;
+                color: #000;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                &__texting {
+                    padding: 20px;
+                    &--heading {
+                        font-size: 1.4em;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+
+                    &__price {
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        &--cost {
+                            color: #254993;
+                            margin-right: 10px;
+                        }
+
+                        &--promo {
+                            text-decoration-line:line-through;
+                            color: #717171;
+                            font-weight: normal;
+                        }
+                    }
+                    
+                }
+                &__icons {
+                    display: flex;
+                    flex-direction: column;
+
+                    i {
+                        border: 1px solid #dfdfdf;
+                        width: 55px;
+                        height: 55px;
+                        font-size: 1.6em;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-right: none;
+                        border-bottom: none;
+                        color:#254993;
+                        transition: background-color .5s;
+                        cursor: pointer;
+                    }
+
+                    i:hover {
+                        background-color: #254993;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

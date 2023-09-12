@@ -1,0 +1,46 @@
+.footer {
+    background-color: #060606;
+
+    &__text {
+        color: #747474;
+        font-size: 1.3em;
+        font-weight: bold;
+        
+        .footer-brand-text {
+            margin-bottom: -15px;
+            color: #254993;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        
+        a {
+            width: 30px;
+            height: 30px;
+            background-color: #111;
+            text-decoration: none;
+            color: #a9a9a9;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+            transition: color .5s;
+            i,svg {
+                font-size: 1.3em;
+            }
+        }
+
+        a:hover {
+            background-color: #254993;
+            color: #fff;
+
+            svg {
+                color: #fff;
+            }
+        }
+    }
+}
